@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GODGRACE</title>
+    <link rel="stylesheet" href="light.css">
+</head>
+<body>
+    <header>
+        <a href="home.html">
+            <img src="/photos/godgrace-logo-long.jpeg" alt="" class="main-logo">
+        </a>
+        <div class="icons">
+            <img src="/photos/shopping-bag.png" alt="" class="icon" id="cart">
+            <img src="/photos/heart.png" alt="" class="icon" id="wishlist">
+            <img src="/photos/user.png" alt="" class="icon" id="profile">
+        </div>
+    </header>
+    <div class="stage">
+            <button class="change" onclick="swipeLeftShowImage()">&lt;</button>
+            <div class="show" id="show">
+                <img src="./photos/ferrari-tshirt-1.jpg" alt="" class="show-img">
+            </div>
+            <button class="change" onclick="swipeRightShowImage()">&gt;</button>
+    </div>
+    <div class="coll">
+        <div class="dir-coll">
+            <a href="#" class="anchor">
+                <p class="coll-head">Collections</p>
+            </a>
+            <a href="#" class="anchor">
+                <button class="dir-button">&gt;</button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="./photos/ferrari-tshirt-2.jpg" alt="" class="card-img">
+            <p class="card-title">Ferrari Exclusive</p>  
+            <p class="card-sp">Rs. 599.99</p>
+            <p class="card-cp">Rs. 699.99</p>
+        </div>
+        <div class="card">
+            <img src="./photos/travis-tshirt-2.png" alt="" class="card-img">
+            <p class="card-title">Travis Scott Exclusive</p>  
+            <p class="card-sp">Rs. 599.99</p>
+            <p class="card-cp">Rs. 699.99</p>
+        </div>
+    </div>
+    <footer >
+        <img src="./photos/godgrace-logo-long.jpeg" alt="" class="main-logo">
+        <ul-info-list->
+            <li class="info-li">
+                <img src="./photos/call_logo.png" alt="" class="info-icon">
+                <a href="tel:+919999999999" class="anchor">
+                    <p class="infotext">+91 9999999999</p>
+                </a>
+            </li>
+            <li class="info-li">
+                <img src="./photos/gmail_logo.webp" alt="" class="info-icon">
+                <a href="mailto:godgraceofficial01@gmail.com" class="anchor">
+                    <p class="infotext">godgraceofficial01@gmail.com</p>
+                </a>
+            </li>
+            <li class="info-li">
+                <img src="./photos/instagram_logo.webp" alt="" class="info-icon">
+                <a href="#" class="anchor">
+                    <p class="infotext">_godgrace</p>
+                </a>
+            </li>
+            <li class="info-li">
+                <img src="./photos/facebook_logo.webp" alt="" class="info-icon">
+                <a href="#" class="anchor">
+                    <p class="infotext">_godgrace</p>
+                </a>
+            </li>
+            <li class="info-li">
+                <img src="./photos/x_logo.webp" alt="" class="info-icon">
+                <a href="#" class="anchor">
+                    <p class="infotext">_godgrace</p>
+                </a>
+            </li>
+        </ul-info-list->
+    </footer>
+    <script type="module" src="db.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
